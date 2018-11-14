@@ -2,6 +2,7 @@
 
 * Студент: [Николай Филоненко](https://up.htmlacademy.ru/htmlcss/23/user/906321).
 * Наставник: Альбина Токарчук.
+https://htmlacademy.ru/profile/id167491
 
 ---
 
