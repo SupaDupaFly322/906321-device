@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link
   </head>
   <body>
     <header class="main-header">
@@ -43,26 +44,8 @@
         <p>
           Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает
         </p>
-        <a href="map.html" target="_blank"><img src="img/map.png" width="560" height="222" alt="Карта"></a>
+        <a href="map.html" target="_blank"><img src="img/map.png" width="560" height="222" alt="Карта с адресом улица Строителей, дом 15"></a>
         <a class="button" href="#">Напишите нам</a>
-      </section>
-      <section class="write-to-us">
-        <form action="https://echo.htmlacademy.ru" method="post">
-          <label>
-            Ваше имя:
-            <input type="text" name="surname" placeholder="Имя Фамилия">
-          </label>
-          <label>
-            Ваш e-mail:
-            <input type="text" name="email" placeholder="email@example.com">
-          </label>
-          <br>
-          <label>
-            Текст письма:
-            <input type="text" name="letter-for-us" placeholder="В свободной форме">
-          </label>
-          <input type="submit" name="send-letter" value="Отправить">
-        </form>
       </section>
     </main> 
     <footer class="main-footer">
@@ -86,7 +69,28 @@
         <li><a class="social-button" href="https://www.instagram.com/htmlacademy/">Инстаграм</a></li>
         <li><a class="social-button" href="https://twitter.com/htmlacademy_ru">Твиттер</a></li>
       </ul>
-      <a class="htmlacademy-link" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-html.png" width="27" height="35" alt="Логотип htmlacademy"></a>
+      <a class="htmlac  ademy-link" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-html.png" width="27" height="35" alt="Логотип htmlacademy"></a>
     </footer>
+    <section class="write-to-us">
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <label>
+          Ваше имя:
+          <input type="text" name="surname" placeholder="Имя Фамилия">
+        </label>
+        <label>
+          Ваш e-mail:
+          <input type="email" name="email" placeholder="email@example.com">
+        </label>
+        <br>
+        <textarea name="text-for-us" id="text-field" rows="6" cols="70">
+          В свободной форме
+        </textarea>
+        <input type="submit" name="send-letter" value="Отправить">
+      </form>
+    </section>
+  <section class="big-map">
+    <a class="map-link" href="https://www.google.com/maps/@55.6870056,37.5293688,18z"><img src="img/map-big.png" width="960" height="559" alt="Большая карта с адресом улица Строителей, дом 15"></a>
+    <input type="button" name="exit" value="выход">
+  </section>
   </body>
 </html>
