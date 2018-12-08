@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "gilroy-extrabold";
+    src: url("fonts/gilroy-extrabold-webfont.woff2") format("woff2"),
+         url("fonts/gilroy-extrabold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    margin: 0;
+
+    font-family: "OpenSans", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #464646;
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    font-family: "gilroy-extrabold";
+    font-size: 47px;
+    font-weight: 800;
+    line-height: 1.02;
+    color: #000000;
+}
+
+.functional-link-search {
+    color: rgba(0,0,0,0.3);
+}
+.functional-link {
+    color: #000000; 
+}
+.second-header-naviagion {
+    font-family: "gilroy-extrabold";
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.33;
+    color: #000000;
+}
+.transport-companies {
+    font-family: "gilroy-extrabold";
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #000000;
+}
+.button {
+    font-family: "gilroy-extrabold";
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.33;
+    color: #000000;
+    background-color: #f0c52e;
+}
+.main-footer {
+    background-color: #464646;
+}
+.footer-p {
+    font-family: "OpenSans", sans-serif;
+    font-size: 15px;
+    line-height: 2;
+    font-weight: 300;
+    color: #ffffff;
+
+}
+
+

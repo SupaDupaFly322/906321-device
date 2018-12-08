@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
-    <link
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <a class="logo-link"><img src="img/header-logo.png" width="164" height="36" alt="Интернет магазин Device"></a>
       <ul class="site-functional">
-        <li><a class="functional-link" href="#">Поиск по сайту</a></li>
+        <li><a class="functional-link-search" href="#">Поиск по сайту</a></li>
         <li><a class="functional-link" href="#">Войти</a></li>
         <li><a class="functional-link" href="#">Сравнить</a></li>
         <li><a class="functional-link" href="#">Корзина</a></li>
@@ -22,6 +24,20 @@
           <li><a class="contacts-navigation" href="#">Контакты</a></li>
         </ul>
       </nav>
+      <section class="sub-menu">
+        <ul class="list-of-type-items">
+          <li><a class="link-of-type-items" href="#">Виртуальная реальность</a></li>
+          <li><a class="link-of-type-items">Моноподы для селфи</a></li>
+          <li><a class="link-of-type-items" href="#">Виртуальная реальность</a></li>
+        </ul>
+        <ul>
+          <li><a class="link-of-type-items" href="#">Фитнес-браслеты</a></li>
+          <li><a class="link-of-type-items" href="#">Умные часы</a></li>
+        </ul>
+        <ul>
+          <li><a class="link-of-type-items" href="#">Квадрокоптеры</a></li>
+        </ul>
+      </section>
     </header>
     <main>
       <section class="about-us">
@@ -50,7 +66,7 @@
     </main> 
     <footer class="main-footer">
       <a class="logo-link"><img src="img/footer-logo.png" width="164" height="36" alt="Интернет магазин Device"></a>
-      <p>г. Москва ул. Строителей, 15 </p>
+      <p class="footer-p">г. Москва ул. Строителей, 15 </p>
       <nav class="first-footer-navigation">
         <ul class="site-navigation">
           <li><a class="delivery" href="#">Доставка</a></li>
@@ -63,7 +79,7 @@
         <li><a class="functional-link" href="#">Сравнить</a></li>
         <li><a class="functional-link" href ="#">Корзина</a></li>
       </ul>
-      <p>Тел: +7(495)495-95-95</p>
+      <p class="footer-p">Тел: +7(495)495-95-95</p>
       <ul>
         <li><a class="social-button" href="https://www.facebook.com/htmlacademy">Фейсбук</a></li>
         <li><a class="social-button" href="https://www.instagram.com/htmlacademy/">Инстаграм</a></li>
@@ -81,16 +97,16 @@
           Ваш e-mail:
           <input type="email" name="email" placeholder="email@example.com">
         </label>
-        <br>
-        <textarea name="text-for-us" id="text-field" rows="6" cols="70">
+        <textarea name="text-for-us" id="text-field">
           В свободной форме
         </textarea>
         <input type="submit" name="send-letter" value="Отправить">
+        <input type="button" name="exit-from-letter" value="Выход">
       </form>
     </section>
-  <section class="big-map">
-    <a class="map-link" href="https://www.google.com/maps/@55.6870056,37.5293688,18z"><img src="img/map-big.png" width="960" height="559" alt="Большая карта с адресом улица Строителей, дом 15"></a>
-    <input type="button" name="exit" value="выход">
-  </section>
+    <section class="big-map">
+      <a class="map-link" href="https://www.google.com/maps/@55.6870056,37.5293688,18z"><img src="img/map-big.png" width="960" height="559" alt="Большая карта с адресом улица Строителей, дом 15"></a>
+      <input type="button" name="exit-from-map" value="Выход">
+    </section>
   </body>
 </html>
