@@ -7,8 +7,7 @@
 }
 body {
     margin: 0;
-
-    font-family: "OpenSans", sans-serif;
+    font-family: "OpenSans",Arial,sans-serif;
     font-size: 15px;
     line-height: 30px;
     font-weight: 300;
@@ -17,21 +16,21 @@ body {
 a {
     text-decoration: none;
 }
-h2 {
+
+.headline {
     font-family: "gilroy-extrabold";
     font-size: 47px;
     font-weight: 800;
     line-height: 1.02;
     color: #000000;
 }
-
-.functional-link-search {
-    color: rgba(0,0,0,0.3);
-}
 .functional-link {
     color: #000000; 
 }
-.second-header-naviagion {
+ .functional-link:hover {
+    color: rgba(0,0,0,0.6);
+}
+.second-header-navigation {
     font-family: "gilroy-extrabold";
     font-size: 18px;
     font-weight: 800;
@@ -52,17 +51,48 @@ h2 {
     line-height: 1.33;
     color: #000000;
     background-color: #f0c52e;
+    text-transform: uppercase;
 }
 .main-footer {
     background-color: #464646;
 }
-.footer-p {
-    font-family: "OpenSans", sans-serif;
+.footer-text {
+    font-family: "OpenSans",Arial,sans-serif;
     font-size: 15px;
     line-height: 2;
     font-weight: 300;
     color: #ffffff;
-
 }
+.delivery,
+.warranty,
+.contacts-navigation {
+    font-family: "gilroy-extrabold";
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.33;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.footer-functional-link {
+    font-family: "OpenSans",Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2.4;
+    color: rgba(255, 255, 255, 0.7);
+}
+.catalog,
+.delivery,
+.warranty,
+.contacts-navigation {
+    font-family: "gilroy-extrabold";
+    font-size: 18px;
+    font-weight: 800;   
+    line-height: 1.33;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+
+
 
 
