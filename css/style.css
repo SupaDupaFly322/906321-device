@@ -1,7 +1,7 @@
 @font-face {
     font-family: "gilroy-extrabold";
-    src: url(".../fonts/gilroy-extrabold-webfont.woff2") format("woff2"),
-         url(".../fonts/gilroy-extrabold-webfont.woff") format("woff");
+    src: url("../fonts/gilroy-extrabold-webfont.woff2") format("woff2"),
+         url("../fonts/gilroy-extrabold-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -26,6 +26,17 @@ a {
     line-height: 1.02;
     color: #000000;
 }
+.site-functional,
+.second-header-navigation,
+.list-of-type-items,
+.footer-site-navigation,
+.social-list,
+.site-navigation,
+.transport-companies,
+.catalog-way
+{
+    list-style: none;
+}
 .functional-link {
     color: #000000; 
 }
@@ -37,7 +48,7 @@ a {
     color: rgba(0,0,0,0.3);
 }
 .second-header-navigation {
-    font-family: "gilroy-extrabold";
+    font-family: "gilroy-extrabold", Arial, sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.33;
@@ -63,7 +74,6 @@ a {
     background-color: #464646;
 }
 .footer-text {
-    font-family: "OpenSans", Arial, sans-serif;
     font-size: 15px;
     line-height: 2;
     font-weight: 300;
@@ -71,7 +81,6 @@ a {
 }
 
 .footer-functional-link {
-    font-family: "OpenSans", Arial, sans-serif;
     font-size: 15px;
     font-weight: 300;
     line-height: 2.4;
@@ -100,9 +109,6 @@ a {
     color: rgba(0,0,0,0.3);
 }
 .link-of-type-items{
-    font-family: "OpenSans", Arial, sans-serif;
-    width: 123px;
-    height: 48px;
     font-weight: 300;
     line-height: 2.4;
     color: #000000;
@@ -130,21 +136,53 @@ a {
     color: rgba(255,255,255,0.3);
 }
 .content-link{
-    width: 173px;
-    height: 39px;
     font-family: "gilroy-extrabold", Arial, sans-serif;
     font-weight: 800;
     line-height: 1.33;
     color: #000000;
 }
 .price{
-    width: 75px;
-    height: 14px;
     font-family: "gilroy-extrabold", Arial, sans-serif;
     font-weight: 300;
     line-height: 1.5;
     color: #464646;
 }
+.path-link{
+    font-weight: 300;
+    line-height: 1.71;
+    color: rgba(0,0,0,0.3);
+}
+.path-link:hover,
+.path-link:focus{
+    color: rgba(0,0,0,0.6);
+}
+.path-link:active{
+    color: rgba(0,0,0,0.1);
+}
+.logo-link:focus,
+.logo-link:hover{
+    opacity: 0.6;
+}
+.logo-link:active{
+    opacity: 0.3;
+}
+.search-area{
+    border: none;
+    background-color: #f0c52e;
+    font-weight: 300;
+    line-height: 2;
+    text-align: left;
+    letter-spacing: 0.2px;
+    color: rgba(0,0,0,0.3);
+}
+.search-area:focus,
+.search-area:hover{
+    color: rgba(0,0,0,0.6);
+}
+.search-area:active{
+    color: #000000;
+}
+
 
 
 
