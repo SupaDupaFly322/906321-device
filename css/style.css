@@ -1,11 +1,11 @@
-@font-face {
+@font-face{
     font-family: "gilroy-extrabold";
     src: url("../fonts/gilroy-extrabold-webfont.woff2") format("woff2"),
          url("../fonts/gilroy-extrabold-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
-body {
+body{
     margin: 0;
     font-family: "OpenSans", Arial, sans-serif;
     font-size: 15px;
@@ -13,13 +13,13 @@ body {
     font-weight: 300;
     color: #464646;
 }
-a {
+a{
     text-decoration: none;
 }
 .main-header{
     background-color: #f0c52e;
 }
-.headline {
+.headline{
     font-family: "gilroy-extrabold", Arial, sans-serif;
     font-size: 47px;
     font-weight: 800;
@@ -36,31 +36,31 @@ a {
 .catalog-way{
     list-style: none;
 }
-.functional-link {
+.functional-link{
     color: #000000; 
 }
  .functional-link:hover,
- .functional-link:focus {
+ .functional-link:focus{
     color: rgba(0, 0, 0, 0.6);
 }
 .functional-link:active{
     color: rgba(0, 0, 0, 0.3);
 }
-.second-header-navigation {
+.second-header-navigation{
     font-family: "gilroy-extrabold", Arial, sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.33;
     color: #000000;
 }
-.transport-companies {
+.transport-companies{
     font-family: "gilroy-extrabold", Arial, sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 40px;
     color: #000000;
 }
-.button {
+.button{
     font-family: "gilroy-extrabold", Arial, sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -69,17 +69,17 @@ a {
     background-color: #f0c52e;
     text-transform: uppercase;
 }
-.main-footer {
+.main-footer{
     background-color: #464646;
 }
-.footer-text {
+.footer-text{
     font-size: 15px;
     line-height: 2;
     font-weight: 300;
     color: #ffffff;
 }
 
-.footer-functional-link {
+.footer-functional-link{
     font-size: 15px;
     font-weight: 300;
     line-height: 2.4;
@@ -92,7 +92,7 @@ a {
 .footer-functional-link:active{
     color: rgba(255, 255, 255, 0.3)
 }
-.link-of-site-navigation {
+.link-of-site-navigation{
     font-family: "gilroy-extrabold", Arial, sans-serif;
     font-size: 18px;
     font-weight: 800;   
